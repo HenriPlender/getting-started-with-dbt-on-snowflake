@@ -18,7 +18,7 @@ SELECT
     cl.first_name,
     cl.last_name,
     cl.e_mail,
-    cl.phone_number,
+    concat('+31',cl.phone_number) as telefoonnr,
     cl.children_count,
     cl.gender,
     cl.marital_status,
